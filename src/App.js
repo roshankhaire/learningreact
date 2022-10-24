@@ -1,3 +1,4 @@
+import ExpenseItem from './components/ExpenseItem';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
